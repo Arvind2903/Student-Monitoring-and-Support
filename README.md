@@ -23,7 +23,10 @@ The dataset is created from a higher education institution, incorporating inform
 
 ## Usage
 
-The code provided includes common preprocessing steps and models implemented for the competition. Preprocessing steps include data loading, handling missing values, and encoding categorical variables. Various models, including Adaboost, Gradient Boosting, Bagging, Decision Tree, Gaussian Naive Bayes, MLP, Random Forest, SGD, SVC, and XGBoost, are implemented with different hyperparameters. The best-performing model was XGBoost with 80% accuracy on the validation set and 77% accuracy on the unseen test set.
+The code provided includes common preprocessing steps and models implemented for the competition. Preprocessing steps include data loading, handling missing values, and encoding categorical variables. Various models, including Adaboost, Gradient Boosting, Bagging, Decision Tree, Gaussian Naive Bayes, MLP, Random Forest, SGD, SVC, and XGBoost, are implemented with different hyperparameters. 
+
+## Result
+The best-performing model was XGBoost with 80% accuracy on the validation set and 77% accuracy on the unseen test set.
 
 ## Dependencies
 
@@ -31,3 +34,5 @@ The code provided includes common preprocessing steps and models implemented for
 - Required Python packages (specified in each script)
 - Libraries: numpy, pandas, scikit-learn, scipy, imbalanced-learn, xgboost, matplotlib
 
+## Extras
+Feel free to check out the competition at https://www.kaggle.com/competitions/students-drop-out-prediction/ and explore others' solutions as well!
